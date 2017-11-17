@@ -1,0 +1,38 @@
+{
+  "name": "babel-preset-last-beta",
+  "version": "7.0.0-beta.32",
+  "description": "Babel preset for babel7.beta",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src/ --out-dir lib/"
+  },
+  "keywords": [
+    "babel",
+    "beta"
+  ],
+  "author": "landn172",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-codemod-optional-catch-binding": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-export-default": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-export-namespace": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-function-sent": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-unicode-property-regex": "^7.0.0-beta.32",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0-beta.32",
+    "@babel/plugin-transform-new-target": "^7.0.0-beta.32"
+  },
+  "peerDependencies": {
+    "@babel/core": "7.0.0-beta.32"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.32",
+    "@babel/core": "7.0.0-beta.32",
+    "@babel/preset-env": "^7.0.0-beta.32"
+  }
+}
