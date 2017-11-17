@@ -6,3 +6,4 @@ lib
 .vscode
 .nyc_output
 tmp
+package-lock.json

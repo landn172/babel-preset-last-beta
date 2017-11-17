@@ -1,12 +1,15 @@
 {
   "name": "babel-preset-last-beta",
-  "version": "7.0.0-beta.32",
+  "version": "1.0.2",
   "description": "Babel preset for babel7.beta",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "build": "babel src/ --out-dir lib/"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "babel",
     "beta"
@@ -14,7 +17,7 @@
   "author": "landn172",
   "license": "MIT",
   "dependencies": {
-    "@babel/plugin-codemod-optional-catch-binding": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-optional-catch-binding": "^7.0.0-beta.32",
     "@babel/plugin-proposal-class-properties": "^7.0.0-beta.32",
     "@babel/plugin-proposal-decorators": "^7.0.0-beta.32",
     "@babel/plugin-proposal-export-default": "^7.0.0-beta.32",

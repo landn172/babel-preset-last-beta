@@ -1,4 +1,4 @@
-import optionalCatchBind from '@babel/plugin-codemod-optional-catch-binding'
+import proposalOptionalCatchBind from '@babel/plugin-proposal-optional-catch-binding'
 import proposalClassProperties from '@babel/plugin-proposal-class-properties'
 import proposalDecorators from '@babel/plugin-proposal-decorators'
 import proposalExportDefault from '@babel/plugin-proposal-export-default'
@@ -14,7 +14,7 @@ import transformNewTarget from '@babel/plugin-transform-new-target'
 export default function() {
   return {
     plugins: [
-      optionalCatchBind,
+      proposalOptionalCatchBind,
       proposalClassProperties,
       proposalDecorators,
       proposalExportDefault,
